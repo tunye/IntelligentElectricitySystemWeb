@@ -24,7 +24,7 @@ repositories {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation 'com.alibaba:fastjson:1.2.38'
+    implementation 'com.alibaba:fastjson:1.2.59'
     implementation('org.springframework.boot:spring-boot-starter-web')
     implementation('org.springframework.boot:spring-boot-starter-aop')
     implementation('org.springframework.boot:spring-boot-starter-data-jpa')
